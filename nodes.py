@@ -240,8 +240,13 @@ NODE_CLASS_MAPPINGS = {
     "String-🔬": String,
     "If ANY return A else B-🔬": IfExecute,
     "DebugPrint-🔬": DebugPrint,
+    "Compare": Compare,
+    "Int": Int,
+    "Float": Float,
+    "Bool": Bool,
     "String": String,
     "If ANY execute A else B": IfExecute,
+    "DebugPrint": DebugPrint,
     # "If ANY execute A else B-🔬": IfExecuteNode,
 }
 
@@ -254,8 +259,13 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "String-🔬": "String",
     "If ANY return A else B-🔬": "If ANY return A else B",
     "DebugPrint-🔬": "DebugPrint",
+    "Compare": "Compare",
+    "Int": "Int",
+    "Float": "Float",
+    "Bool": "Bool",
     "String": "String",
     "If ANY execute A else B": "If",
+    "DebugPrint": "DebugPrint",
     # "If ANY execute A else B-🔬": "If ANY execute A else B",
 }
 
